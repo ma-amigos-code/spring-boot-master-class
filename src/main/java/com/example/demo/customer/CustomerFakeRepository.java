@@ -1,19 +1,17 @@
 package com.example.demo.customer;
 
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.List;
 
-@Component
-@Primary
-public class CustomerRepository implements CustomerRepo{
+@Component(value = "fake")
+public class CustomerFakeRepository implements CustomerRepo{
     @Override
     public List<Customer> getCustomers() {
-        // TODO connect to real DB
         return Arrays.asList(
-                new Customer(1L, "TODO. Implement real DB")
+                new Customer(1L, "James Bond"),
+                new Customer(2L, "Jamila Bond")
         );
     }
 }

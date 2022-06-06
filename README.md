@@ -4,7 +4,10 @@
 - Download the diagram and open using https://app.diagrams.net/
 
 ## Getting Started
-- git checkout section-1 https://github.com/amigoscode/spring-boot-master-class-course/tree/section-1
+- [git checkout section-1](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-1)
 
 ## Structuring Your Applications
-- git checkout section-2 https://github.com/amigoscode/spring-boot-master-class-course/tree/section-2
+- [git checkout section-2](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-2])
+
+## Dependency Injection
+- [git checkout section-3](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-3)
