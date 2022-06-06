@@ -19,3 +19,11 @@
 ## JSON with Jackson Fasterxml
 - https://github.com/fasterxml/jackson
 - [git checkout section-5](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-5)
+
+## Building APIs with Spring MVC
+- {
+  "name": "Bond Bond",
+  "id": 3,
+  "password": "321654"
+  }
+- [git checkout section-6](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-6)
