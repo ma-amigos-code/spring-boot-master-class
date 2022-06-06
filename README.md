@@ -11,3 +11,7 @@
 
 ## Dependency Injection
 - [git checkout section-3](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-3)
+
+## Beans
+- **@Bean** annotation let us instantiate a class where we can have some extra configurations and setups step before the class is initialized
+- [git checkout section-4](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-4)
