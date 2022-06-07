@@ -42,3 +42,8 @@
 - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - [Exception Handling in Spring MVC](https://spring.io/blog/2013/11/01/exception-handling-in-spring-mvc)
 - [git checkout section-8](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-8)
+
+## Spring Data & Databases
+- [Spring Data](https://spring.io/projects/spring-data)
+- [H2 Database Engine](https://www.h2database.com/html/main.html)
+- [git checkout section-9](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-9)

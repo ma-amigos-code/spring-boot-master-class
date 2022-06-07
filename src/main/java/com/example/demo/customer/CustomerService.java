@@ -1,5 +1,6 @@
 package com.example.demo.customer;
 
+import com.example.demo.exception.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -8,16 +9,21 @@ import java.util.List;
 @Service
 public class CustomerService {
 
-    private final CustomerRepo customerRepo;
+    private final CustomerRepository customerRepository;
 
     @Autowired
-    public CustomerService(
-            /*@Qualifier("fake")*/ CustomerRepo customerRepo) {
-        this.customerRepo = customerRepo;
+    public CustomerService(CustomerRepository customerRepository) {
+        this.customerRepository = customerRepository;
     }
 
     List<Customer> getCustomers() {
-        return customerRepo.getCustomers();
+        return customerRepository.findAll();
+    }
+
+    Customer getCustomer(Long customerId) {
+        return customerRepository
+                .findById(customerId)
+                .orElseThrow( () -> new NotFoundException("Customer with ID "+ customerId +" not found") );
     }
 
 }
