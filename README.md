@@ -27,3 +27,13 @@
   "password": "321654"
   }
 - [git checkout section-6](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-6)
+
+## Java Bean Validation
+- **@Valid** validates backend constraints like @NotBlank, etc.
+- {
+  "name": "Bond Bond",
+  "id": 3,
+  "password": "321654",
+  "email": "email@gmail.com"
+  }
+- [git checkout section-7](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-7)

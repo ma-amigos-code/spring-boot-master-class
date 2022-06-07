@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -40,7 +41,7 @@ public class CustomerController2 {
     }
 
     @PostMapping
-    void createNewCustomer(@RequestBody Customer customer) {
+    void createNewCustomer(@Valid @RequestBody Customer customer) {
         System.out.println("POST REQUEST...");
         System.out.println(customer);
     }
