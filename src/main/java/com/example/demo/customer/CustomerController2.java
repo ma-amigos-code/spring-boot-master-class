@@ -1,5 +1,7 @@
 package com.example.demo.customer;
 
+import com.example.demo.exception.ApiRequestException;
+import com.example.demo.exception.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -37,7 +39,12 @@ public class CustomerController2 {
                 .stream()
                 .filter(customer -> customer.getId().equals(customerId))
                 .findFirst()
-                .orElseThrow( () -> new IllegalStateException("Customer not found") );
+                .orElseThrow( () -> new NotFoundException("Customer with ID "+ customerId +" not found") );
+    }
+
+    @GetMapping(path = "{customerId}/exception")
+    Customer getCustomerException(@PathVariable("customerId") Long customerId) {
+        throw new ApiRequestException("ApiRequestException for customer " + customerId);
     }
 
     @PostMapping
