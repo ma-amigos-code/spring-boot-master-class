@@ -54,3 +54,8 @@
 - [Spring Cloud](https://spring.io/projects/spring-cloud)
   - [Spring Cloud OpenFeign](https://spring.io/projects/spring-cloud-openfeign)
 - [git checkout section-10](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-10)
+
+## Logging
+- [Logging Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.logging)
+- Logging when is necessary and not when it does not give value
+- [git checkout section-11](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-11)
