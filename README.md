@@ -47,3 +47,10 @@
 - [Spring Data](https://spring.io/projects/spring-data)
 - [H2 Database Engine](https://www.h2database.com/html/main.html)
 - [git checkout section-9](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-9)
+
+## Open Feign Rest Client
+- [OpenFeign](https://github.com/openfeign/feign)
+- [{JSON} Placeholder](https://jsonplaceholder.typicode.com/)
+- [Spring Cloud](https://spring.io/projects/spring-cloud)
+  - [Spring Cloud OpenFeign](https://spring.io/projects/spring-cloud-openfeign)
+- [git checkout section-10](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-10)
