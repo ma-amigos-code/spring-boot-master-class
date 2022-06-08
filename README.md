@@ -59,3 +59,11 @@
 - [Logging Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#features.logging)
 - Logging when is necessary and not when it does not give value
 - [git checkout section-11](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-11)
+
+## Spring Boot Actuator and Metrics
+- [Production-ready Features](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#actuator)
+- Metrics and monitoring apps:
+  - [Micrometer](https://micrometer.io/)
+  - [Grafana](https://grafana.com/)
+  - [Prometheus](https://prometheus.io/)
+- [git checkout section-12](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-12)
