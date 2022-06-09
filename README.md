@@ -67,3 +67,11 @@
   - [Grafana](https://grafana.com/)
   - [Prometheus](https://prometheus.io/)
 - [git checkout section-12](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-12)
+
+## Application Properties and Profiles
+- **application.properties** file is used to: 
+  - deploy on different environments (DEV, ITG, PRO)
+  - manage database configurations
+- **--spring.profiles.active=dev** to use another Application Properties file
+- We can use "YML format" for this file
+- [git checkout section-13](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-13)
