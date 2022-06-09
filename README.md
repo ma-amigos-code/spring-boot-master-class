@@ -84,3 +84,6 @@
     **./mvnw spring-boot:build-image -Dspring-boot.build-image.imageName=springio/gs-spring-boot-docker**
     2. 
     **docker run -p 8080:8080 -t springio/gs-spring-boot-docker**
+
+## Testing
+- [git checkout section-15](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-15)
