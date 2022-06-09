@@ -75,3 +75,12 @@
 - **--spring.profiles.active=dev** to use another Application Properties file
 - We can use "YML format" for this file
 - [git checkout section-13](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-13)
+
+## Packaging and Running Applications
+- Docker and Spring Boot
+  - [Spring Boot with Docker](https://spring.io/guides/gs/spring-boot-docker/)
+  - Once you have docker installed run
+    1. 
+    **./mvnw spring-boot:build-image -Dspring-boot.build-image.imageName=springio/gs-spring-boot-docker**
+    2. 
+    **docker run -p 8080:8080 -t springio/gs-spring-boot-docker**
