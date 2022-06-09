@@ -12,8 +12,6 @@ import java.time.ZonedDateTime;
 @ControllerAdvice
 public class ApiExceptionHandler {
 
-    private final static Logger LOGGER = LoggerFactory.getLogger(ApiExceptionHandler.class);
-
     @ExceptionHandler(value = ApiRequestException.class)
     public ResponseEntity<Object> handlerApiRequestException(ApiRequestException e) {
         ApiException apiException = new ApiException(e.getMessage(), e, HttpStatus.BAD_REQUEST, ZonedDateTime.now());

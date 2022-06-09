@@ -87,3 +87,7 @@
 
 ## Testing
 - [git checkout section-15](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-15)
+
+## Lombok
+- [Project Lombok](https://projectlombok.org/)
+- [git checkout section-16](https://github.com/amigoscode/spring-boot-master-class-course/tree/section-16)
